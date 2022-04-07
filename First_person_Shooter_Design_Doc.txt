@@ -1,0 +1,16 @@
+First_Person_Shooter_Game>>
+Core Mechanics>>
+ -->is to shoot the enemy.
+Core Game Loop>>
+ -->is to collect the ammonations and shoot enemies and reach the end of the level.
+MVP>>
+
+Minimum Viable product.
+1. First person Camera Movement.
+2. Shooting with RayCast.
+3. EnemyMovement and attack AI.
+4. Health and damages System.
+5. Death or gameOver functionality.
+6. Swap or Weapon Swithing.
+7. Animation pickups.
+8. Flash light and Battery pickup.
