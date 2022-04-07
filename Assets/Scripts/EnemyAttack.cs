@@ -21,15 +21,14 @@ public class EnemyAttack : MonoBehaviour
     {
         if(other.gameObject.tag=="Player")
         {
-            animator.Play("RoundKick");
+            animator.SetTrigger("RoundKick");
         }
     }
     public void OnTriggerExit(Collider other)
     {
-
-        if (other.gameObject.tag == "Player")
-        {
-            animator.Play("idle");
-        }
+        
+            animator.SetTrigger("Run");
+        
     }
+
 }
